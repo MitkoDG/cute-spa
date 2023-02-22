@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ 
+ .navbar{
+    background-color: pink;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .nav-items{
+    display: flex;
+ }
+ 
+ a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+ }
+ .link{
+    color: pink;
+    font-size: medium;
+ }
+ .logo{
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+    font-style: oblique;
+ }
+ ul{
+    list-style: none;
+ }
+ .navbar ul li{
+    margin-left: 15px;
+ }
+ 
+ #home{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+ 
+ }
+ .img{
+    width: 80%;
+    height: 80%;
+ }
